@@ -13,5 +13,5 @@ def filter_numeros_primos(lista):
     return list(filter(es_primo, lista))
 
 entrada = [2, 3, 4, 5, 6, 7, 8, 9, 10]
-resultado = filter_numeros_primos(entrada)
-print(resultado)
+salida = filter_numeros_primos(entrada)
+print(salida)
