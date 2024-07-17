@@ -4,3 +4,8 @@ ejm:
 entrada: eucalipto
 salida: {e:1,u:1,a:1,i:1,o:1}
 """
+def contar_vocales(texto):
+    return {vocal: texto.lower().count(vocal) for vocal in 'aeiou'}
+
+entrada = "eucalipto"
+print(contar_vocales(entrada))
